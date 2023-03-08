@@ -1,0 +1,587 @@
+1675649543592	geckodriver	INFO	Listening on 127.0.0.1:52985
+1675649544099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledsQAYR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675649544775	Marionette	INFO	Marionette enabled
+1675649544789	Marionette	INFO	Listening on port 43745
+Read port: 43745
+WebDriver BiDi listening on ws://127.0.0.1:45951
+1675649544892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledsQAYR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45951/devtools/browser/ce10e784-34cd-41a8-a94b-e09525abe1bc
+1675649549298	Marionette	INFO	Stopped listening on port 43745
+1675649551304	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1675650412542	geckodriver	INFO	Listening on 127.0.0.1:59959
+1675650412544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileACf3ti"
+*** You are running in headless mode.
+1675650412810	Marionette	INFO	Marionette enabled
+1675650412813	Marionette	INFO	Listening on port 39237
+Read port: 39237
+WebDriver BiDi listening on ws://127.0.0.1:59819
+1675650412908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileACf3ti/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59819/devtools/browser/883f6c71-353f-402e-aea7-d9cc05cdd227
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15333008979413720936/index.html#t=3659926567941638878&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 2059 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675650464325	geckodriver	INFO	Listening on 127.0.0.1:48065
+1675650464328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2flDMc"
+*** You are running in headless mode.
+1675650464670	Marionette	INFO	Marionette enabled
+1675650464674	Marionette	INFO	Listening on port 37847
+Read port: 37847
+WebDriver BiDi listening on ws://127.0.0.1:43971
+1675650464778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2flDMc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43971/devtools/browser/b9e18473-5728-426b-938d-19eba87366e0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4278 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675650511317	geckodriver	INFO	Listening on 127.0.0.1:40939
+1675650511320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2mzrfu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675650512503	Marionette	INFO	Marionette enabled
+1675650512507	Marionette	INFO	Listening on port 38783
+Read port: 38783
+WebDriver BiDi listening on ws://127.0.0.1:42277
+1675650512616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2mzrfu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42277/devtools/browser/7639d2df-43ce-4452-92c6-c0d7740974b7
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4558 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675650535156	Marionette	INFO	Stopped listening on port 38783
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675650545127	geckodriver	INFO	Listening on 127.0.0.1:58569
+1675650545129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37151" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQBwBI6"
+*** You are running in headless mode.
+1675650545422	Marionette	INFO	Marionette enabled
+1675650545425	Marionette	INFO	Listening on port 38341
+Read port: 38341
+WebDriver BiDi listening on ws://127.0.0.1:37151
+1675650545532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQBwBI6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37151/devtools/browser/b4e9b970-4cd6-470d-8fba-09b7c156f10c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7724 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4199 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675650785990	geckodriver	INFO	Listening on 127.0.0.1:51861
+1675650785993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--window-size=1920,1080" "--remote-debugging-port" "37509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC6ZowD"
+*** You are running in headless mode.
+1675650786325	Marionette	INFO	Marionette enabled
+1675650786328	Marionette	INFO	Listening on port 44583
+Read port: 44583
+WebDriver BiDi listening on ws://127.0.0.1:37509
+1675650786432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC6ZowD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37509/devtools/browser/857b4b86-47d7-4f92-8773-bedf9afc0d0a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 3010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1315 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651154456	geckodriver	INFO	Listening on 127.0.0.1:60211
+1675651154459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--window-size=3840,2160" "--remote-debugging-port" "40879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee01CDn"
+*** You are running in headless mode.
+1675651154785	Marionette	INFO	Marionette enabled
+1675651154789	Marionette	INFO	Listening on port 41837
+WebDriver BiDi listening on ws://127.0.0.1:40879
+Read port: 41837
+1675651154962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee01CDn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40879/devtools/browser/0121679f-0dd3-4a9b-ba46-2d703412d1c3
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7107 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651194142	geckodriver	INFO	Listening on 127.0.0.1:45911
+1675651194655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--window-size=2160,3840" "--remote-debugging-port" "51625" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaoz2gn"
+*** You are running in headless mode.
+1675651195010	Marionette	INFO	Marionette enabled
+1675651195013	Marionette	INFO	Listening on port 43123
+Read port: 43123
+WebDriver BiDi listening on ws://127.0.0.1:51625
+1675651195115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaoz2gn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51625/devtools/browser/18236976-4278-4c1c-89c4-83884e0ccc76
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15333008979413720936/index.html#t=3211477603889187628&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 5198 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651418677	geckodriver	INFO	Listening on 127.0.0.1:54739
+1675651419188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenmGN2N"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651419931	Marionette	INFO	Marionette enabled
+1675651419934	Marionette	INFO	Listening on port 36117
+Read port: 36117
+WebDriver BiDi listening on ws://127.0.0.1:47395
+1675651420038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenmGN2N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47395/devtools/browser/83f3a518-a501-4e3f-8765-1bd592a89fdb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675651543579	Marionette	INFO	Stopped listening on port 36117
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651549849	geckodriver	INFO	Listening on 127.0.0.1:46355
+1675651549852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLWABrm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651550884	Marionette	INFO	Marionette enabled
+1675651550889	Marionette	INFO	Listening on port 41589
+Read port: 41589
+WebDriver BiDi listening on ws://127.0.0.1:39837
+1675651551045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLWABrm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39837/devtools/browser/de9f5392-76bf-4ad2-8668-ac725525b22e
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/16538721791045783629/index.html?v=b208246486#t=5265024997397126337&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 6747 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651575954	geckodriver	INFO	Listening on 127.0.0.1:52301
+1675651575960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9IjEMN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651577473	Marionette	INFO	Marionette enabled
+1675651577480	Marionette	INFO	Listening on port 43907
+Read port: 43907
+WebDriver BiDi listening on ws://127.0.0.1:39895
+1675651577701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9IjEMN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39895/devtools/browser/9edd91a9-f130-4f15-8734-1ec877892ae6
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 3763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651591483	Marionette	INFO	Stopped listening on port 43907
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651619799	geckodriver	INFO	Listening on 127.0.0.1:49753
+1675651619808	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLp4pCs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651621195	Marionette	INFO	Marionette enabled
+1675651621201	Marionette	INFO	Listening on port 33247
+Read port: 33247
+WebDriver BiDi listening on ws://127.0.0.1:33055
+1675651621455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLp4pCs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33055/devtools/browser/030bf30a-0882-4af2-9c8d-b3e582938f6d
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15922891607400741778/index.html#t=11012843407516235124&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: "" string literal contains an unescaped line break
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4267 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651657713	geckodriver	INFO	Listening on 127.0.0.1:60721
+1675651657721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2ooS8D"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651659013	Marionette	INFO	Marionette enabled
+1675651659021	Marionette	INFO	Listening on port 43601
+Read port: 43601
+WebDriver BiDi listening on ws://127.0.0.1:37735
+1675651659250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2ooS8D/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37735/devtools/browser/3e6c16a0-773c-46f1-92c3-6dbc9f2b99b1
+1675651668426	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1400 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651688705	geckodriver	INFO	Listening on 127.0.0.1:47847
+1675651688713	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePniTtI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651691104	Marionette	INFO	Marionette enabled
+1675651691117	Marionette	INFO	Listening on port 43201
+Read port: 43201
+WebDriver BiDi listening on ws://127.0.0.1:50839
+1675651691446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePniTtI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50839/devtools/browser/052108b9-0b63-422e-a6cc-c5e04c67300a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651734436	Marionette	INFO	Stopped listening on port 43201
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651738191	Marionette	INFO	Stopped listening on port 43601
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651745757	Marionette	INFO	Stopped listening on port 33247
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651748700	Marionette	INFO	Stopped listening on port 41589
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675651827835	geckodriver	INFO	Listening on 127.0.0.1:59683
+1675651827842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehOO1Oc"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651828770	Marionette	INFO	Marionette enabled
+1675651828773	Marionette	INFO	Listening on port 39415
+Read port: 39415
+WebDriver BiDi listening on ws://127.0.0.1:59827
+1675651828889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehOO1Oc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59827/devtools/browser/0756a43d-ed46-4f54-9675-08ad9857cbd5
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15333008979413720936/index.html#t=14536155554611322934&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 5320 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651842755	Marionette	INFO	Stopped listening on port 39415
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675651851762	geckodriver	INFO	Listening on 127.0.0.1:54081
+1675651851768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemHmDTO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675651852619	Marionette	INFO	Marionette enabled
+1675651852623	Marionette	INFO	Listening on port 34801
+Read port: 34801
+WebDriver BiDi listening on ws://127.0.0.1:37205
+1675651852714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemHmDTO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37205/devtools/browser/e37614aa-88d8-498d-9268-6bf2f3c68c8f
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4972 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 380 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675651863981	Marionette	INFO	Stopped listening on port 34801
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652092893	geckodriver	INFO	Listening on 127.0.0.1:47893
+1675652092897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee6AX5p"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652093726	Marionette	INFO	Marionette enabled
+1675652093729	Marionette	INFO	Listening on port 32939
+WebDriver BiDi listening on ws://127.0.0.1:33103
+Read port: 32939
+1675652093904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee6AX5p/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33103/devtools/browser/4f387ad6-b4d0-4403-b9fa-d8de95c0f51e
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 881 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652104202	Marionette	INFO	Stopped listening on port 32939
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652120502	geckodriver	INFO	Listening on 127.0.0.1:44407
+1675652120506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2SnqrW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652121297	Marionette	INFO	Marionette enabled
+1675652121300	Marionette	INFO	Listening on port 35251
+Read port: 35251
+WebDriver BiDi listening on ws://127.0.0.1:33065
+1675652121396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2SnqrW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33065/devtools/browser/9c4181fd-43dc-4842-ab9b-eafc80cba451
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 6558 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652132848	Marionette	INFO	Stopped listening on port 35251
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675652140958	geckodriver	INFO	Listening on 127.0.0.1:46587
+1675652140963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIpMd3L"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652141839	Marionette	INFO	Marionette enabled
+1675652141842	Marionette	INFO	Listening on port 41289
+Read port: 41289
+WebDriver BiDi listening on ws://127.0.0.1:53033
+1675652141935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIpMd3L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53033/devtools/browser/01e87e80-5eaa-4657-a728-6800dcf79475
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 3911 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652152553	Marionette	INFO	Stopped listening on port 41289
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652185011	geckodriver	INFO	Listening on 127.0.0.1:55741
+1675652185014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUzvxGG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652185748	Marionette	INFO	Marionette enabled
+1675652185751	Marionette	INFO	Listening on port 40157
+WebDriver BiDi listening on ws://127.0.0.1:57189
+Read port: 40157
+1675652185930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUzvxGG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57189/devtools/browser/4ce895dc-cdd4-442d-a2b9-8bebec7362eb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675652217407	geckodriver	INFO	Listening on 127.0.0.1:49785
+1675652217410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSHgXLV"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652218248	Marionette	INFO	Marionette enabled
+1675652218251	Marionette	INFO	Listening on port 45271
+Read port: 45271
+WebDriver BiDi listening on ws://127.0.0.1:57297
+1675652218351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSHgXLV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57297/devtools/browser/297d5583-44a7-420d-9ce2-7d1811b7de20
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/16538721791045783629/index.html#t=4360486646182577754&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4468 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652242661	Marionette	INFO	Stopped listening on port 45271
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675652245578	Marionette	INFO	Stopped listening on port 40157
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652613841	geckodriver	INFO	Listening on 127.0.0.1:36409
+1675652613844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeiZTaW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652614629	Marionette	INFO	Marionette enabled
+1675652614632	Marionette	INFO	Listening on port 43001
+Read port: 43001
+WebDriver BiDi listening on ws://127.0.0.1:49429
+1675652614721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeiZTaW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49429/devtools/browser/2de530da-b45f-4a6e-8156-135a598ce3e2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 3894 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675652629939	Marionette	INFO	Stopped listening on port 43001
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652653140	geckodriver	INFO	Listening on 127.0.0.1:34869
+1675652653146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemBysIz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652653944	Marionette	INFO	Marionette enabled
+1675652653947	Marionette	INFO	Listening on port 36675
+WebDriver BiDi listening on ws://127.0.0.1:44805
+Read port: 36675
+1675652654192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemBysIz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44805/devtools/browser/218e6a81-1946-4403-ba7b-9b2c7be81f1a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1973 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652670297	Marionette	INFO	Stopped listening on port 36675
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675652687942	geckodriver	INFO	Listening on 127.0.0.1:46655
+1675652687946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemmCQKO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652688789	Marionette	INFO	Marionette enabled
+1675652688793	Marionette	INFO	Listening on port 32809
+Read port: 32809
+WebDriver BiDi listening on ws://127.0.0.1:60489
+1675652688908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemmCQKO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60489/devtools/browser/1b65aa90-de85-42ba-bbc7-792a0c4b8cd9
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 763 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652704140	Marionette	INFO	Stopped listening on port 32809
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652726709	geckodriver	INFO	Listening on 127.0.0.1:48527
+1675652726714	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSiBiUh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652727527	Marionette	INFO	Marionette enabled
+1675652727530	Marionette	INFO	Listening on port 42259
+WebDriver BiDi listening on ws://127.0.0.1:44477
+Read port: 42259
+1675652727790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSiBiUh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44477/devtools/browser/c7bef02d-0ee8-4007-93d7-cbf7b05de45e
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/16538721791045783629/index.html#t=10104860131154489477&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 4658 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675652744036	Marionette	INFO	Stopped listening on port 42259
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652801747	geckodriver	INFO	Listening on 127.0.0.1:44489
+1675652801752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebSVvun"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652802556	Marionette	INFO	Marionette enabled
+1675652802560	Marionette	INFO	Listening on port 37635
+WebDriver BiDi listening on ws://127.0.0.1:43483
+Read port: 37635
+1675652802805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebSVvun/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43483/devtools/browser/3d66444d-bef8-4c54-bb49-091733aa6a26
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7095 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652817856	Marionette	INFO	Stopped listening on port 37635
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675652916840	geckodriver	INFO	Listening on 127.0.0.1:46871
+1675652916843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46155" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9tWdij"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652917595	Marionette	INFO	Marionette enabled
+1675652917599	Marionette	INFO	Listening on port 38975
+Read port: 38975
+WebDriver BiDi listening on ws://127.0.0.1:46155
+1675652917714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9tWdij/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46155/devtools/browser/9dc54cf4-17ff-4eba-a134-24a7b1396d01
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 6770 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675652931298	Marionette	INFO	Stopped listening on port 38975
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652941340	geckodriver	INFO	Listening on 127.0.0.1:57835
+1675652941343	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60321" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFakwaF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652942077	Marionette	INFO	Marionette enabled
+1675652942081	Marionette	INFO	Listening on port 43801
+Read port: 43801
+WebDriver BiDi listening on ws://127.0.0.1:60321
+1675652942211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFakwaF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60321/devtools/browser/ef235c11-26f1-4844-84a4-e237c918e669
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 6091 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675652956951	Marionette	INFO	Stopped listening on port 43801
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675652973914	geckodriver	INFO	Listening on 127.0.0.1:58807
+1675652973918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44855" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile011rCF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675652974791	Marionette	INFO	Marionette enabled
+1675652974794	Marionette	INFO	Listening on port 40711
+Read port: 40711
+WebDriver BiDi listening on ws://127.0.0.1:44855
+1675652974915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile011rCF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44855/devtools/browser/77dcaee7-beff-41a1-aa06-7f2e424c35e9
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15922891607400741778/index.html?v=b208246486#t=11341161849659089564&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: "" string literal contains an unescaped line break
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1257 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675652989383	Marionette	INFO	Stopped listening on port 40711
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675653026826	geckodriver	INFO	Listening on 127.0.0.1:47895
+1675653026830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7TY0K1"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675653027675	Marionette	INFO	Marionette enabled
+1675653027678	Marionette	INFO	Listening on port 44803
+Read port: 44803
+WebDriver BiDi listening on ws://127.0.0.1:44207
+1675653027782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7TY0K1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44207/devtools/browser/8fa02059-fcf3-4af3-9b1c-3b84e1fcfd36
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1428 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675653046008	Marionette	INFO	Stopped listening on port 44803
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675653142524	geckodriver	INFO	Listening on 127.0.0.1:58809
+1675653142529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehrfRV7"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675653143320	Marionette	INFO	Marionette enabled
+1675653143324	Marionette	INFO	Listening on port 43087
+Read port: 43087
+WebDriver BiDi listening on ws://127.0.0.1:59901
+1675653143421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehrfRV7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59901/devtools/browser/9281912d-c951-41fe-9939-69ff2565077d
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 1714 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675653161546	Marionette	INFO	Stopped listening on port 43087
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1675653258624	geckodriver	INFO	Listening on 127.0.0.1:34153
+1675653258627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3qZbuy"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675653259396	Marionette	INFO	Marionette enabled
+1675653259399	Marionette	INFO	Listening on port 34935
+Read port: 34935
+WebDriver BiDi listening on ws://127.0.0.1:46041
+1675653259496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3qZbuy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46041/devtools/browser/0509976d-82a1-45a1-8859-c8ed644d3279
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/15333008979413720936/index.html#t=8485977980778227687&p=https%3A%2F%2Fgoogleads.g.doubleclick.net, line 2: SyntaxError: illegal character U+200B
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 2204 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675653278018	Marionette	INFO	Stopped listening on port 34935
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675658959578	geckodriver	INFO	Listening on 127.0.0.1:40795
+1675658959581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMboSRL"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675658960310	Marionette	INFO	Marionette enabled
+1675658960313	Marionette	INFO	Listening on port 44363
+WebDriver BiDi listening on ws://127.0.0.1:41585
+Read port: 44363
+1675658960507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMboSRL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41585/devtools/browser/5ec3a603-2a5e-4a45-a472-d86511d8ff64
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 2068 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675659129292	geckodriver	INFO	Listening on 127.0.0.1:50753
+1675659129294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLvDwds"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1675659129992	Marionette	INFO	Marionette enabled
+1675659129995	Marionette	INFO	Listening on port 42773
+Read port: 42773
+WebDriver BiDi listening on ws://127.0.0.1:45775
+1675659130085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLvDwds/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45775/devtools/browser/b266d4dc-b6bd-4cb0-925f-125eda520216
+JavaScript warning: https://pagead2.googlesyndication.com/bg/enP75FOAOR6Dv0_xbsOpJb6_RhPRjbOZFZcWOHt7fp4.js line 2 > eval line 7361 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675659147774	Marionette	INFO	Stopped listening on port 42773
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1675659979067	Marionette	INFO	Stopped listening on port 44363
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

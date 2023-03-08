@@ -1,0 +1,46 @@
+{
+    "MatchInfo": {
+        "Teams": [
+            "IND",
+            "AUS"
+        ],
+        "Toss": [
+            "Australia",
+            "bat"
+        ],
+        "Players": {
+            "IND": [
+                "Rohit Sharma (c)",
+                "KL Rahul",
+                "Cheteshwar Pujara",
+                "Virat Kohli",
+                "Suryakumar Yadav",
+                "Srikar Bharat (wk)",
+                "Ravindra Jadeja",
+                "Ravichandran Ashwin",
+                "Axar Patel",
+                "Mohammed Shami",
+                "Mohammed Siraj"
+            ],
+            "AUS": [
+                "David Warner",
+                "Usman Khawaja",
+                "Marnus Labuschagne",
+                "Steven Smith",
+                "Matt Renshaw",
+                "Peter Handscomb",
+                "Alex Carey (wk)",
+                "Pat Cummins (c)",
+                "Nathan Lyon",
+                "Todd Murphy",
+                "Scott Boland"
+            ]
+        },
+        "Format": "Test"
+    },
+    "MatchStatus": {
+        "Status": "stumps",
+        "Description": "Day 1: Stumps - India trail by 100 runs"
+    },
+    "CurrentBatsmanScore": "Match not in Progress"
+}
