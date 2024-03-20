@@ -1,3 +1,9 @@
+
+"""
+Author: Abhinandan Krishnan
+Description: This script contains utility functions to take in inputs from user and generate an audio link if user wants the notification in audio format.
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -40,51 +46,51 @@ def get_audio_link(text):
   
 
 def take_user_input():
-    # Load existing data from the file if it exists
-    try:
-        with open('rules.yaml', 'r') as file:
-            data = yaml.safe_load(file)
-    except FileNotFoundError:
-        data = []
+	# Load existing data from the file if it exists
+	try:
+		with open('rules.yaml', 'r') as file:
+			data = yaml.safe_load(file)
+	except FileNotFoundError:
+		data = []
 
-    # Get input from the user
-    alert_id = len(data) + 1
-    alert_type = input("Enter alert type (1: HighScoreAlert, 2: SuperOverAlert): ")
-    if alert_type=='1':
-    	alert_type="HighScoreAlert"
+	# Get input from the user
+	alert_id = len(data) + 1
+	alert_type = input("Enter alert type (1: HighScoreAlert, 2: SuperOverAlert): ")
+	if alert_type=='1':
+		alert_type="HighScoreAlert"
 
-    player = input("Enter player Name: ")
-    runs = int(input("Enter runs: "))
-    playsound = int(input("Enter playsound (0 or 1): "))
-    playtext = int(input("Enter playtext (0 or 1): "))
-    if playtext==1:
-        text = input("Enter text: ")
-    else:
-        text=" "
-    print("\n\n")
+	player = input("Enter player Name: ")
+	runs = int(input("Enter runs: "))
+	playsound = int(input("Enter playsound (0 or 1): "))
+	playtext = int(input("Enter playtext (0 or 1): "))
+	if playtext==1:
+		text = input("Enter text: ")
+	else:
+		text=" "
+	print("\n\n")
 
-    # Create alert dictionary
-    alert = {
-        'id': alert_id,
-        'alert': {
-            'type': alert_type,
-            'player': player,
-            'runs': runs,
-            'playsound': playsound,
-            'playtext': playtext,
-            'text': text
-        }
-    }
+	# Create alert dictionary
+	alert = {
+		'id': alert_id,
+		'alert': {
+			'type': alert_type,
+			'player': player,
+			'runs': runs,
+			'playsound': playsound,
+			'playtext': playtext,
+			'text': text
+		}
+	}
 
-    # Append the new alert to the data
-    data.append(alert)
+	# Append the new alert to the data
+	data.append(alert)
 
-    # Save the updated data to the file
-    with open('rules.yaml', 'w') as file:
-        yaml.dump(data, file)
+	# Save the updated data to the file
+	with open('rules.yaml', 'w') as file:
+		yaml.dump(data, file)
 
-    print(f"Alert with id {alert_id} added successfully.")
+	print(f"Alert with id {alert_id} added successfully.")
 
-    
+	
 
-    
+	

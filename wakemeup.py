@@ -1,3 +1,11 @@
+
+"""
+Author: Abhinandan Krishnan
+Description: This script fetches the data from the specifed URL, process user data and trigger alerts.
+"""
+
+
+
 import requests
 import bs4
 import re

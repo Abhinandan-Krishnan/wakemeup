@@ -1,17 +1,24 @@
-from wakemeup import alert 
+
+"""
+Author: Abhinandan Krishnan
+Description: This script sets up alerts for cricket matches based on predefined rules.
+"""
+
 import logging
-from datetime import datetime
 import os
 import argparse
-from utils import *
+from datetime import datetime
+import yaml
+from utils import take_user_input
+from wakemeup import alert
 
-#URL of the desired match
-url=r'https://www.cricbuzz.com/live-cricket-scores/60009/aus-vs-ind-1st-test-australia-tour-of-india-2023'
-# PATH="/home/abhinandan/wakemeup/Prod"
-PATH="./"
+
+# URL of the desired match
+URL = r'https://www.cricbuzz.com/live-cricket-scores/60009/aus-vs-ind-1st-test-australia-tour-of-india-2023'
+PATH = "./"  # Update with appropriate path
 
 logging.basicConfig(
-    filename=os.path.join(PATH,"logfile.log"),
+    filename=os.path.join(PATH, "logfile.log"),
     filemode='a',
     format='[%(asctime)s,%(msecs)d] [%(levelname)s]: %(message)s',
     datefmt='%H:%M:%S',
@@ -39,45 +46,42 @@ Parameters: Player: string
 Returns: No returns. Creats a alert flag for given conditions
 '''
 
-
 def parse_rules(rule):
-	alert_id=rule["id"]
-	alert_type=rule["alert"]["type"]
+    alert_id = rule["id"]
+    alert_type = rule["alert"]["type"]
 
-	if alert_type=="HighScoreAlert":
-		player=rule["alert"]["player"]
-		playsound=rule["alert"]["playsound"]
-		runs=rule["alert"]["runs"]
-		playtext=rule["alert"]["playtext"]
-		text=rule["alert"]["text"]
-		params=[player,runs,playsound,playtext,text]
-		return alert_id,alert_type,params
-
-def func(mode):
-	logging.info('Running script at: {}'.format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
-	alerter=alert(url,PATH,mode)
-
-	take_user_input()
-	with open(os.path.join(PATH,'rules.yaml')) as f:
-		rules= yaml.safe_load(f)
-
-	for rule in rules:
-		alert_id,alert_type,params=parse_rules(rule)
-		if alert_type=="HighScoreAlert":
-			try:
-				alerter.highscore_alert(params[0],params[1],params[2],params[3],params[4])
-			except:
-				logging.error("Alert ID: {} failed".format(alert_id))
-
-	logging.info("Alert jobs finished")
-	logging.info("-"*30)
+    if alert_type == "HighScoreAlert":
+        player = rule["alert"]["player"]
+        playsound = rule["alert"]["playsound"]
+        runs = rule["alert"]["runs"]
+        playtext = rule["alert"]["playtext"]
+        text = rule["alert"]["text"]
+        params = [player, runs, playsound, playtext, text]
+        return alert_id, alert_type, params
 
 
-if __name__=="__main__":
+def run_alerts(mode):
+    logging.info('Running script at: {}'.format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
+    alerter = alert(url=URL, path=PATH, mode=mode)
+    take_user_input()
+
+    with open(os.path.join(PATH, 'rules.yaml')) as f:
+        rules = yaml.safe_load(f)
+
+    for rule in rules:
+        alert_id, alert_type, params = parse_rules(rule)
+        if alert_type == "HighScoreAlert":
+            try:
+                alerter.highscore_alert(params[0], params[1], params[2], params[3], params[4])
+            except Exception as e:
+                logging.error(f"Alert ID: {alert_id} failed. Error: {str(e)}")
+
+    logging.info("Alert jobs finished")
+    logging.info("-" * 30)
 
 
-	parser = argparse.ArgumentParser()
-	parser.add_argument("--mode", help="set mode (dev or prod)",choices=['prod','dev'],nargs='?', default="dev")
-	args = parser.parse_args()
-
-	func(args.mode)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", help="set mode (dev or prod)", choices=['prod', 'dev'], nargs='?', default="dev")
+    args = parser.parse_args()
+    run_alerts(args.mode)
