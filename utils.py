@@ -5,8 +5,8 @@ from selenium.webdriver.support.ui import Select,WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 import time
-from screeninfo import get_monitors
 import logging
+import yaml
 
 def get_audio_link(text):
 	try:
@@ -38,3 +38,53 @@ def get_audio_link(text):
 	driver.quit()
 	return audio_link
   
+
+def take_user_input():
+    # Load existing data from the file if it exists
+    try:
+        with open('rules.yaml', 'r') as file:
+            data = yaml.safe_load(file)
+    except FileNotFoundError:
+        data = []
+
+    # Get input from the user
+    alert_id = len(data) + 1
+    alert_type = input("Enter alert type (1: HighScoreAlert, 2: SuperOverAlert): ")
+    if alert_type=='1':
+    	alert_type="HighScoreAlert"
+
+    player = input("Enter player Name: ")
+    runs = int(input("Enter runs: "))
+    playsound = int(input("Enter playsound (0 or 1): "))
+    playtext = int(input("Enter playtext (0 or 1): "))
+    if playtext==1:
+        text = input("Enter text: ")
+    else:
+        text=" "
+    print("\n\n")
+
+    # Create alert dictionary
+    alert = {
+        'id': alert_id,
+        'alert': {
+            'type': alert_type,
+            'player': player,
+            'runs': runs,
+            'playsound': playsound,
+            'playtext': playtext,
+            'text': text
+        }
+    }
+
+    # Append the new alert to the data
+    data.append(alert)
+
+    # Save the updated data to the file
+    with open('rules.yaml', 'w') as file:
+        yaml.dump(data, file)
+
+    print(f"Alert with id {alert_id} added successfully.")
+
+    
+
+    

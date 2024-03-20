@@ -7,9 +7,22 @@ from googlehomepush import GoogleHome
 from utils import get_audio_link
 import logging
 import os
+import traceback
+import azure.cosmos.exceptions as exceptions
 
 import time
+import config
+from azure.cosmos import CosmosClient, PartitionKey
 
+# Initialize your Cosmos DB client
+HOST = config.settings['host']
+MASTER_KEY = config.settings['master_key']
+DATABASE_ID = config.settings['database_id']
+CONTAINER_ID = config.settings['container_id']
+
+client = CosmosClient(HOST, credential=MASTER_KEY)
+database = client.get_database_client(DATABASE_ID)
+container = database.get_container_client(CONTAINER_ID)
 
 class MatchData:
 	def __init__(self,url,PATH):
@@ -27,12 +40,6 @@ class MatchData:
 		with open(os.path.join(self.PATH,"teamnames.json"), "r") as config_file:
 			self.names = json.load(config_file)
 		#Call all necessary functions
-		self.get_match_info()
-		self.current_status()
-		#self.get_current_scores()
-		self.get_current_batsmen_scores()
-		self.print()
-	
 		self.PATH=PATH
 
 	def extract_data(self,pattern,string):
@@ -137,14 +144,63 @@ class MatchData:
 		j=json.dumps(self.match,indent=4)
 		with open(os.path.join(self.PATH,"match_data.json"),'w') as f:
 			json.dump(self.match,f,indent=4)
-		#print(j)
+		print(j)
+
+	def push_to_cosmos(self):
+    	# Convert the match data to JSON
+		self.match['partitionKey'] = 'key'
+		self.match['id'] = '1'
+
+		# Convert the match data to JSON
+		match_data = json.dumps(self.match, indent=4)
+
+		# Convert the JSON string back to a Python dictionary
+		match_data_dict = json.loads(match_data)
+
+		# Push the JSON data to Azure Cosmos DB
+		try:
+			db = client.create_database(id=DATABASE_ID)
+			print('Database with id \'{0}\' created'.format(DATABASE_ID))
+		
+		except exceptions.CosmosResourceExistsError:
+			db = client.get_database_client(DATABASE_ID)
+			print('Database with id \'{0}\' was found'.format(DATABASE_ID))
+
+		try:
+			container = db.create_container(id=CONTAINER_ID, partition_key=PartitionKey(path='/partitionKey'))
+			print('Container with id \'{0}\' created'.format(CONTAINER_ID))
+		except exceptions.CosmosResourceExistsError:
+			container = db.get_container_client(CONTAINER_ID)
+			print('Container with id \'{0}\' was found'.format(CONTAINER_ID))
+
+		try:
+			container.upsert_item(match_data_dict)
+			print("Data pushed to Azure Cosmos DB successfully.")
+		except exceptions.CosmosResourceExistsError:
+			print(f"Item already exists")
+			traceback.print_exc()
+
 
 	
 class alert(MatchData):
-	def __init__(self,url,PATH):
-		super().__init__(url,PATH)
+	def __init__(self,url,PATH,mode):
 		self.PATH=PATH
-		#self.match=data
+
+		if mode=="prod":
+			super().__init__(url,PATH)
+			#Call necessary functions in MatchData class to get match information (only in prod mode)
+			self.get_match_info()
+			self.current_status()
+			#self.get_current_scores()
+			self.get_current_batsmen_scores()
+
+		elif mode=="dev":
+			#Get saved data from file
+			with open(os.path.join(self.PATH,"match_data.json"),"r") as f:
+				data = json.load(f)
+			self.match=data
+			#self.push_to_cosmos()
+
 		self.highscore_flag=0
 
 	def send_alert(self,playsound,playtext,text):
@@ -160,9 +216,6 @@ class alert(MatchData):
 			else:
 				logging.warning("Text message not played")
 				print("Text message not played")
-
-
-
 
 
 	def highscore_alert(self,player=None,runs="90",playsound=True,playtext=False,text=None):
@@ -201,8 +254,3 @@ class alert(MatchData):
 			print("Match not in Progress")
 
 
-'''
-if __name__=="__main__":
-	alerter=Alert(url)
-	alerter.highscore_alert()
-'''

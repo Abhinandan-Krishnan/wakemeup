@@ -1,8 +1,0 @@
-- id: 1
-  alert:
-    type: HighScoreAlert
-    player: ALL
-    runs: 90
-    playsound: 1
-    playtext: 0
-    text: Abhi wake up. Interesting match

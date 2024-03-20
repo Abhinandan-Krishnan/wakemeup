@@ -1,13 +1,14 @@
 from wakemeup import alert 
-import time
-import yaml
 import logging
 from datetime import datetime
 import os
-#URL of the desired match
+import argparse
+from utils import *
 
+#URL of the desired match
 url=r'https://www.cricbuzz.com/live-cricket-scores/60009/aus-vs-ind-1st-test-australia-tour-of-india-2023'
-PATH="/home/abhinandan/wakemeup/Prod"
+# PATH="/home/abhinandan/wakemeup/Prod"
+PATH="./"
 
 logging.basicConfig(
     filename=os.path.join(PATH,"logfile.log"),
@@ -52,10 +53,11 @@ def parse_rules(rule):
 		params=[player,runs,playsound,playtext,text]
 		return alert_id,alert_type,params
 
-def func():
+def func(mode):
 	logging.info('Running script at: {}'.format(datetime.now().strftime("%d/%m/%Y %H:%M:%S")))
-	alerter=alert(url,PATH)
+	alerter=alert(url,PATH,mode)
 
+	take_user_input()
 	with open(os.path.join(PATH,'rules.yaml')) as f:
 		rules= yaml.safe_load(f)
 
@@ -72,4 +74,10 @@ def func():
 
 
 if __name__=="__main__":
-	func()
+
+
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--mode", help="set mode (dev or prod)",choices=['prod','dev'],nargs='?', default="dev")
+	args = parser.parse_args()
+
+	func(args.mode)

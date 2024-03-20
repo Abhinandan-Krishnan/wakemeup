@@ -1,0 +1,16 @@
+- alert:
+    player: ALL
+    playsound: 1
+    playtext: 0
+    runs: 90
+    text: Abhi wake up. Interesting match
+    type: HighScoreAlert
+  id: 1
+- alert:
+    player: Virat Kohli
+    playsound: 1
+    playtext: 0
+    runs: 90
+    text: ' '
+    type: HighScoreAlert
+  id: 2

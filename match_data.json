@@ -1,0 +1,67 @@
+{
+    "MatchInfo": {
+        "Teams": [
+            "SAUR",
+            "PUN"
+        ],
+        "Toss": [
+            "Saurashtra",
+            "bat"
+        ],
+        "Players": {
+            "SAUR": [
+                "Harvik Desai (wk)",
+                "Snell Patel",
+                "Chirag Jani",
+                "Sheldon Jackson",
+                "Arpit Vasavada (c)",
+                "Prerak Mankad",
+                "Parth Bhut",
+                "Chetan Sakariya",
+                "Vishvaraj Jadeja",
+                "Dharmendrasinh Jadeja",
+                "Yuvrajsinh Dodiya"
+            ],
+            "PUN": [
+                "Prabhsimran Singh",
+                "Anmol Malhotra (wk)",
+                "Anmolpreet Singh",
+                "Naman Dhir",
+                "Mandeep Singh (c)",
+                "Nehal Wadhera",
+                "Pukhraj Mann",
+                "Mayank Markande",
+                "Vinay Choudhary",
+                "Siddarth Kaul",
+                "Baltej Singh"
+            ]
+        },
+        "Format": "Test"
+    },
+    "Scores": {
+        "SAUR": {
+            "Score": " 303 & 379    "
+        },
+        "PUN": {
+            "Score": " 431 & 162/7 (75.1"
+        }
+    },
+    "MatchStatus": {
+        "Status": "inprogress",
+        "Description": "Day 5: 2nd Session - Punjab need 90 runs"
+    },
+    "CurrentBatsmanScore": {
+        "Anmol Malhotra": {
+            "Runs": "90",
+            "Balls": "11",
+            "4s": "0",
+            "6s": "0"
+        },
+        "Mayank Markande": {
+            "Runs": "0",
+            "Balls": "1",
+            "4s": "0",
+            "6s": "0"
+        }
+    }
+}
